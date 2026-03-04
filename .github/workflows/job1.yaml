@@ -1,0 +1,14 @@
+name: GHC-Self-Hosted
+
+on: 
+  push:
+
+jobs:
+  P16-selfhosted-job:
+    runs-on: self-hosted
+
+    steps:
+      - name: message 
+        run: echo"welcome to GHA self-hosted project"
+
+    
