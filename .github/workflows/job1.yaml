@@ -9,6 +9,6 @@ jobs:
 
     steps:
       - name: message 
-        run: echo"welcome to GHA self-hosted project"
+        run: echo "welcome to GHA self-hosted project"
 
     
